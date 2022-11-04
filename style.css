@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Josefin+Sans:ital,wght@1,500&display=swap');
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    background-image: url(wp1961883-goku-vs-black-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height:100vh;
+    padding:30px;
+}
+.attempt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+    
+}
+.attempt-num{
+    /* width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255); */
+    width: 120px;
+    height: 80px;
+    margin-right: 65px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+hr{
+    /* background-image: linear-gradient(to right,rgba(255, 255, 255, 0),rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)); */
+    height: 2px;
+    border: none;
+    margin:auto;
+    width: 50%;
+}
+
+img{
+    height: 180px;
+    width: 180px;
+}
+
+.main, .main1, .main2{
+    display: flex;
+    justify-content: center;
+}
+.input{
+   text-align: center;
+    background-color:rgb(255, 255, 255);
+   border-radius: 25px;
+   padding:10px;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.number >h3{
+    padding: 50px 0px;
+}
+.inp{
+    background-color:white;
+    border-radius: 10px 10px 10px 10px;
+    border:double;
+    outline: none;
+    width: 270px;
+    height: 51px;
+    padding:23px;
+}
+button{
+    margin-right: -11px;
+    letter-spacing: 2px;
+    padding:10px 33px;
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 23px;
+    cursor: pointer;
+}
+.box{
+    border-radius: 20px;
+    height: 220px;
+    width:530px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 69px;
+}
+.box:hover{
+    cursor: pointer;
+}
+#msg{
+    margin-top:15px;
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#win,#loose{
+    margin-top:20vh;
+}
+h3{
+    color: rgb(255, 255, 255);
+}
+#hq{
+    color: black;
+}
